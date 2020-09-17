@@ -20,7 +20,11 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
-
+  <style>
+    li{
+      margin: 10px 0;
+    }
+  </style>
 </head>
 
 <body id="page-top">
@@ -80,33 +84,43 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Design Engineer</h3>
+                            <div class="subheading mb-3">NETSCOUT Systems / Arbor Networks</div>
+                              <p><ul>
+                                <li>Full-stack software engineer. Design and implement solution for multiple customers – major to minor.</li>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Design Engineer</h3>
-            <div class="subheading mb-3">NETSCOUT Systems / Arbor Networks</div>
-            <div>
-            	<ul>
-	            	<li>Full-stack engineer. Top performer and quick learner.</li>
-					<li>Technical Lead of a critical Threat Intelligence feature. Made use of the standardized STIX/TAXII format to exchange threat intelligence </li> 
-					<li>Worked with the Open Source community to extend Threat Intelligence technologies.</li>
-					<li>Worked on Arbor Networks AED Console: a central controller of multiple Arbor Networks APSes.</li>
-					<li>Worked on Arbor Edge Defense: an enterprise DDOS mitigation and threat mitigation solution that alleviates malicious traffic. Helped develop and improve countermeasures.</li>
-					<li>Worked on a home-grown Linux-based operating system ArbOS that power the APS and the Console. Learned various computer network and network security topics.</li>
-					<li>Technologies used: Python, C, Bash, JavaScript, Socket Programming, Node, React, Babel, ES6, ES7.</li>
-				</ul>
-            </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2015 - Present</span>
-          </div>
-        </div>
-      </div>
+                                <li>Top 10% Performer within the team. Designed and implemented the Reporting feature for Arbor Edge Defense – a DDoS mitigation solution for enterprises. Helped customers’ IT-Ops produce a big picture view of traffic pattern in their network.  (Promoted from Software Engineer I → II.)</li>
 
-    </section>
+                                <li>Team Lead of a Threat Intelligence team of 7 software development and test engineers for 6 months. Designed the critical STIX/TAXII threat intelligence feature – one of the four key features of AED. Supported major customers such as Tata Consultancy, Dell, and many other major companies all over the world. (Promoted from Software Engineer II → III.)</li>
+
+                                <li>Ongoing Feature Lead of the Internationalization project for Arbor Sightline – a traffic visibility product at service provider level. Leading and consulting a team of 3 engineers on internationalization/localization infrastructures and best practices to expand an English-only user interface. Potential multi-million dollars contracts from major ISPs in China.</li>
+
+                                <li>Coached junior engineers and new hires. Wrote and contributed to several internal wiki pages on design and workflow best practices.</li>
+
+                                <li>Boosted the throughput of a network flow collection pipeline by 200% by utilizing advanced data structures to keep track of top offending hosts. Data are fed to a machine learning job to learn about traffic patterns. As a result, the machine learning module received more data to improve the model accuracy from about 60% to 87%.</li>
+                              </ul></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2015 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Design Engineer Intern</h3>
+                            <div class="subheading mb-3">NETSCOUT Systems / Arbor Networks</div>
+                            <p><ul>
+                            <li>Fixed bugs and improved network device discovery system in Arbor Enterprise Manager – a product to manage multiple AEDs. Bank of America requested this feature before committing to a 2-million-dollar contract.</li>
+
+                            <li>Helped design and improve the licensing infrastructure by adding Cloud Licensing support to AED. This enabled Arbor/NETSCOUT to sell the product to companies that want flexibility in deployment on their own Virtual Machines instead of buying physical hardware. 40% revenue of AED Virtual Machine sales. (Converted to full-time position Software Engineer I.)</li>
+                            </ul></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Summer 2014 and Summer 2015</span></div>
+                    </div>
+                </div>
+            </section>
 
     <hr class="m-0">
 
@@ -119,7 +133,7 @@
             <h3 class="mb-0">Worcester Polytechnic Institute - Worcester, Massachusetts</h3>
             <div class="subheading mb-3">Bachelor of Science</div>
             <div>Computer Science</div>
-            <p>GPA: 3.62. Graduated with Distinction.</p>
+            <p>GPA: 3.67. Graduated with Distinction.</p>
 	        <div>
 	          	<div class="subheading mb-3">Courses Taken</div>
 	          	<div>
